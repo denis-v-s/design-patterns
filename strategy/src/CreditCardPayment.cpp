@@ -1,4 +1,4 @@
-#include "CreditCardPayment.h"
+#include "../include/CreditCardPayment.h"
 
 CreditCardPayment::CreditCardPayment(const std::string& a_cardNumber, const std::string& a_name)
   : m_cardNumber(a_cardNumber), m_name(a_name) {}

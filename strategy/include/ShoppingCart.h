@@ -8,6 +8,6 @@ private:
   std::unique_ptr<PaymentStrategy> m_paymentStrategy;
 
 public:
-  void setPaymentStrategy(const std::unique_ptr<PaymentStrategy> a_paymentStrategy);
+  void setPaymentStrategy(std::unique_ptr<PaymentStrategy> a_paymentStrategy);
   void checkout(const double a_amount);
 };

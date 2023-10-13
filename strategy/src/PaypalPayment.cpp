@@ -1,4 +1,4 @@
-#include "PaypalPayment.h"
+#include "../include/PaypalPayment.h"
 
 PaypalPayment::PaypalPayment(const std::string& a_email) : m_email(a_email) {}
 

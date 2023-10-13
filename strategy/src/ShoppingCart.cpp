@@ -1,4 +1,4 @@
-#include "ShoppingCart.h"
+#include "../include/ShoppingCart.h"
 
 void ShoppingCart::setPaymentStrategy(std::unique_ptr<PaymentStrategy> a_paymentStrategy) {
   m_paymentStrategy = std::move(a_paymentStrategy);
